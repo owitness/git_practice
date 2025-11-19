@@ -34,3 +34,7 @@ def power(a, b):
     return a ** b
 
 # This is a comment
+
+def percentage(value, percent):
+    """Calculate percentage of a value"""
+    return (value * percent) / 100
